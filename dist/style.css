@@ -37,3 +37,13 @@
     display: block;
   }
 }
+.card{
+
+background: rgba(21, 41, 216, 0.25);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(116, 89, 177, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(126, 134, 208, 0.55);
+height: 120%;
+}
