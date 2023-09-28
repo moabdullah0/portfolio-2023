@@ -6,14 +6,14 @@ list.addEventListener('click', (e) => {
   menu.classList.remove('hiddenlist');
   list.classList.add('hiddenlist');
   exit.classList.remove('hiddenlist');
-  list.style.display ="none"
-  exit.style.display ="block"
+  list.style.display = "none";
+  exit.style.visibility = "visible";
 });
 
 exit.addEventListener('click', (e) => {
   menu.classList.add('hiddenlist');
   list.classList.remove('hiddenlist');
   exit.classList.add('hiddenlist');
-  exit.style.display ="none"
-  list.style.display ="block"
+  exit.style.visibility = "hidden";
+  list.style.display = "block";
 });

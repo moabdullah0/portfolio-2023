@@ -1,41 +1,39 @@
-.logo{
-    font-size: 30px;
-}
-.list li{
-    display: inline; 
-    padding-left: 20px;
-  
+.logo {
+  font-size: 30px;
 }
 
+.list li {
+  display: inline;
+  padding-left: 20px;
+}
 
 @media (max-width: 740px) {
-    .hiddenlist{
-        display: none;
-    }
-    .exit{
-        display: none;
-    } 
-    .menu {
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      top: 80px; /* Adjust this value to control the menu's position */
-      left: 0;
-      right: 0;
-      background-color: black;
-      z-index: 1;
-      padding: 10px;
-      width: 100%;
-    }
+  .hiddenlist {
+    display: none;
   }
-@media (min-width:740px) {
-    .menu {
-      display: none;
-    }
-     .hiddenlist {
-      display: block;
-    }
-    
-}  
- 
-  
+  .exit {
+    visibility: hidden;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 80px; /* Adjust this value to control the menu's position */
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 740px) {
+
+  .fa-list,.exit {
+    visibility: hidden;
+  }
+  .hiddenlist {
+    display: block;
+  }
+}
