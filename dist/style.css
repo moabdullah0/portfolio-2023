@@ -47,3 +47,16 @@ backdrop-filter: blur(4.1px);
 border: 1px solid rgba(126, 134, 208, 0.55);
 height: 120%;
 }
+
+
+/*reveal*/
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 2s;
+}
